@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const API_URL = 'https://test-crmleads.ru:5000'
+export const API_URL = 'https://test-crmleads.ru'
 
 const $api = axios.create({
     withCredentials:true,
